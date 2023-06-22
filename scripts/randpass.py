@@ -13,7 +13,7 @@ def rand_passgen():
     pswd += digit
 
   print ('Your random password is ', pswd)
-  clip_confirm = input("Would you like to copy this password to clipboard?")
+  clip_confirm = input("Would you like to copy this password to clipboard? ")
 
   if clip_confirm == "yes" or clip_confirm == "Yes" or clip_confirm == "y":
     copy(pswd)
