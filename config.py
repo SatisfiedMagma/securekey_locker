@@ -38,4 +38,5 @@ def check_db():
         PM_cur.execute(table_str)
         SecureKey_Locker.commit()
         print("Database and table created!")
+        
         return False

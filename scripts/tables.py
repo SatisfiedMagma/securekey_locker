@@ -1,8 +1,9 @@
 from rich.table import Table
 from rich.console import Console
 
-def table_creator(search_results: tuple):
-    console = Console()
+console = Console()
+
+def table_creator(search_results):
     search_results = [list(x) for x in search_results]
 
     s_no = 1
